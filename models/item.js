@@ -8,3 +8,5 @@ const itemSchema = new schema({
         required: true,
     },
 })
+
+module.exports = Item = mongoose.model('item', itemSchema);
